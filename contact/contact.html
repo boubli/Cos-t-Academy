@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html dir="rtl">
+<head>
+	<title>طلب إجتياز الإمتحان</title>
+	<meta charset="utf-8" />
+	<!-- Google Font -->
+	<link href="https://fonts.googleapis.com/css?family=Cairo" rel="stylesheet">
+	<!-- File CSS -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/cat.css">
+	<meta name="description" content="Free Web tutorials">
+	<meta name="keywords" content="HTML,CSS,XML,JavaScript">
+  	<meta name="author" content="John Doe">
+</head>
+<body>
+
+	<!-- TITLE -->
+		<div class="title" >
+			<br /><center><h1>طلب إجتياز الإمتحان</h1></center>
+			<center><div id="line" ></div></center>
+		</div>
+	<!-- // TITLE -->
+
+	<center>
+		<div class="form" >
+			<form accept="conatct.php" method="post" >
+				<input type="text" id="name" name="name" placeholder=" إسمك الكامل" required="" ><br />
+				<input type="number" id="number" name="phones" placeholder=" رقم الهاتف" required="" ><br />
+				<input type="email" id="number" name="email" placeholder=" البريد الإكتروني" required="" ><br />
+				<input type="text" id="number" name="subject" placeholder=" عنوال الرسالة" required="" ><br />
+
+				<p>ما رأيك بالدروس 
+				<input type="radio" name="likeit" value=" جيدة" checked="checked" />  جيدة
+				<input type="radio" name="likeit" value=" ليست جيدة" /> ليست جيدة
+				<input type="radio" name="likeit" value="ربما" /> ربما</p> <br />
+
+				<textarea id="comments" name="comments" rows="15" cols="65" placeholder="رسالتك هنا" required=""></textarea></p>
+
+				<br /><p id="how" >في أي صنف ستجتاز الإمتحان</p> 
+				<select name="how">
+				<option value=""> -- المرجو الإختيار -- </option>
+				<option>HTML</option>
+				<option>CSS</option>
+				<option>PHP</option>
+				<option>JavaScript</option>
+				<option>Java</option>
+				<option>Photoshop</option>
+				<option>illustrator</option>
+				<option>Prmiere</option>
+				<option>aftter effects</option>
+				<p><input id="sub" type="submit" value="إرسال"></p>
+			</form>
+		</div>
+	</center>
+
+	<div class="footer" ><br />
+		<center><h4>برمجة و تصميم يوسف بوبلي</h4></center>
+	</div>
+
+</body>
+</html>
